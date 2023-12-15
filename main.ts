@@ -3,7 +3,7 @@ radio.onReceivedNumber(function (receivedNumber) {
     ZA = 1
     basic.pause(1000)
     basic.clearScreen()
-    ZA = 1
+    ZA = 0
 })
 input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
     ZA = 0
